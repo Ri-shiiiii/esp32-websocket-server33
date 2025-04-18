@@ -4,10 +4,22 @@
     "description": "WebSocket server for ESP32 compass data",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js"
     },
     "dependencies": {
-      "ws": "^8.13.0"
-    }
-  }
-  
+        "express": "^5.1.0",
+        "ws": "^8.18.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ri-shiiiii/esp32-websocket-server33.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/Ri-shiiiii/esp32-websocket-server33/issues"
+    },
+    "homepage": "https://github.com/Ri-shiiiii/esp32-websocket-server33#readme"
+}
